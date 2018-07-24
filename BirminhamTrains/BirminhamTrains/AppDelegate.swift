@@ -26,13 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Twitter.sharedInstance().start(withConsumerKey: "dWtz5ox2ImlE1MoKQMgQehBzz", consumerSecret: "z3ttfJpX0q6NoXFSBVDWvGXNWwQy5osxbyeemL72CHce3lhhL0")
+        Twitter.sharedInstance().start(withConsumerKey: "", consumerSecret: "") // key removed
         FirebaseApp.configure()
         return true
     }
 
  //   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
- //       Twitter.sharedInstance().start(withConsumerKey:"dWtz5ox2ImlE1MoKQMgQehBzz", consumerSecret:"z3ttfJpX0q6NoXFSBVDWvGXNWwQy5osxbyeemL72CHce3lhhL0")
+ //       Twitter.sharedInstance().start(withConsumerKey:"", consumerSecret:"")
         
  //       return true
  //   }

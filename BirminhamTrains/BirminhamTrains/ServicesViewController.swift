@@ -13,8 +13,8 @@ class ServicesViewController: UIViewController {
     @IBOutlet weak var ServiceCell: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let username = "rttapi_JackWolverson"
-        let password = "1415176e0da75b1ba47cb684f30ee5a430632d5f"
+        let username = "" // username and password removed
+        let password = "" //
         let logindata = String(format : "%@:%@", username, password).data(using: String.Encoding.utf8)!
         let base64String = logindata.base64EncodedString()
         let url: URL = URL(string: "https://api.rtt.io/api/v1/json/search/BHM" )!
