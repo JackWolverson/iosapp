@@ -1,0 +1,6 @@
+framework module Pods_BirminhamTrainsUITests {
+  umbrella header "Pods-BirminhamTrainsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04100248200BD0FB00AE29DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04100247200BD0FB00AE29DC /* AppDelegate.swift */; };
+		0410024A200BD0FB00AE29DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04100249200BD0FB00AE29DC /* ViewController.swift */; };
+		0410024D200BD0FB00AE29DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410024B200BD0FB00AE29DC /* Main.storyboard */; };
+		04100250200BD0FB00AE29DC /* BirminhamTrains.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0410024E200BD0FB00AE29DC /* BirminhamTrains.xcdatamodeld */; };
+		04100252200BD0FB00AE29DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04100251200BD0FB00AE29DC /* Assets.xcassets */; };
+		04100255200BD0FB00AE29DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04100253200BD0FB00AE29DC /* LaunchScreen.storyboard */; };
+		04100260200BD0FC00AE29DC /* BirminhamTrainsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410025F200BD0FC00AE29DC /* BirminhamTrainsTests.swift */; };
+		0410026B200BD0FC00AE29DC /* BirminhamTrainsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410026A200BD0FC00AE29DC /* BirminhamTrainsUITests.swift */; };
+		04100279200BD6CB00AE29DC /* StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04100278200BD6CB00AE29DC /* StationsTableViewController.swift */; };
+		0410027B200BD73100AE29DC /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410027A200BD73100AE29DC /* Stations.swift */; };
+		0410027D200BD7B800AE29DC /* StationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410027C200BD7B800AE29DC /* StationData.swift */; };
+		042860D4200CC9C7001A69BB /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042860D3200CC9C7001A69BB /* ServicesViewController.swift */; };
+		042860DC200D0848001A69BB /* ListTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042860DB200D0848001A69BB /* ListTimelineViewController.swift */; };
+		044074FC200CBC4100E46B8B /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04100287200BED2F00AE29DC /* TwitterKit.framework */; };
+		044074FD200CBC4100E46B8B /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04100287200BED2F00AE29DC /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		044074FF200CBC5400E46B8B /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04100285200BED1F00AE29DC /* TwitterCore.framework */; };
+		04A0DAB2200D1FD400ED4551 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A0DAB1200D1FD300ED4551 /* GoogleService-Info.plist */; };
+		04A0DAB4200D211F00ED4551 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0DAB3200D211F00ED4551 /* SavedViewController.swift */; };
+		04A0DAB6200D296400ED4551 /* Apicall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0DAB5200D296400ED4551 /* Apicall.swift */; };
+		105C961906FA0CADE5D30D59 /* Pods_BirminhamTrainsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD7B956E65A9586A4B8204C /* Pods_BirminhamTrainsTests.framework */; };
+		1BC0DB65CAAC4A6F940DF98D /* Pods_BirminhamTrains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059464A22D3B97C5B4DC3FE7 /* Pods_BirminhamTrains.framework */; };
+		C569393AA71781C6760A0C8F /* Pods_BirminhamTrainsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE34B2FFEB8453481B30EB8 /* Pods_BirminhamTrainsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0410025C200BD0FC00AE29DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0410023C200BD0FB00AE29DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04100243200BD0FB00AE29DC;
+			remoteInfo = BirminhamTrains;
+		};
+		04100267200BD0FC00AE29DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0410023C200BD0FB00AE29DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04100243200BD0FB00AE29DC;
+			remoteInfo = BirminhamTrains;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		044074FE200CBC4100E46B8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				044074FD200CBC4100E46B8B /* TwitterKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04100244200BD0FB00AE29DC /* BirminhamTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirminhamTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04100247200BD0FB00AE29DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04100249200BD0FB00AE29DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0410024C200BD0FB00AE29DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0410024F200BD0FB00AE29DC /* BirminhamTrains.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirminhamTrains.xcdatamodel; sourceTree = "<group>"; };
+		04100251200BD0FB00AE29DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04100254200BD0FB00AE29DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04100256200BD0FB00AE29DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410025B200BD0FC00AE29DC /* BirminhamTrainsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirminhamTrainsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410025F200BD0FC00AE29DC /* BirminhamTrainsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirminhamTrainsTests.swift; sourceTree = "<group>"; };
+		04100261200BD0FC00AE29DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04100266200BD0FC00AE29DC /* BirminhamTrainsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirminhamTrainsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410026A200BD0FC00AE29DC /* BirminhamTrainsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirminhamTrainsUITests.swift; sourceTree = "<group>"; };
+		0410026C200BD0FC00AE29DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04100278200BD6CB00AE29DC /* StationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsTableViewController.swift; sourceTree = "<group>"; };
+		0410027A200BD73100AE29DC /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		0410027C200BD7B800AE29DC /* StationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationData.swift; sourceTree = "<group>"; };
+		04100282200BECF700AE29DC /* Twitter-Kit-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Twitter-Kit-iOS"; sourceTree = "<group>"; };
+		04100284200BED1300AE29DC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		04100285200BED1F00AE29DC /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = "Twitter-Kit-iOS/TwitterCore.framework"; sourceTree = "<group>"; };
+		04100287200BED2F00AE29DC /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		042860D3200CC9C7001A69BB /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		042860DB200D0848001A69BB /* ListTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListTimelineViewController.swift; path = ../ListTimelineViewController.swift; sourceTree = "<group>"; };
+		04A0DAB1200D1FD300ED4551 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04A0DAB3200D211F00ED4551 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		04A0DAB5200D296400ED4551 /* Apicall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apicall.swift; sourceTree = "<group>"; };
+		052C63BD9DB5EA05EB049FC3 /* Pods-BirminhamTrainsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrainsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrainsUITests/Pods-BirminhamTrainsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		059464A22D3B97C5B4DC3FE7 /* Pods_BirminhamTrains.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirminhamTrains.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE34B2FFEB8453481B30EB8 /* Pods_BirminhamTrainsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirminhamTrainsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCFBFDFBC5D982A092332E1 /* Pods-BirminhamTrainsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrainsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrainsTests/Pods-BirminhamTrainsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD7B956E65A9586A4B8204C /* Pods_BirminhamTrainsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirminhamTrainsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60ADE453BD46E6442DCAFA87 /* Pods-BirminhamTrainsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrainsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrainsTests/Pods-BirminhamTrainsTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF32D1C58220F1008A2A68CF /* Pods-BirminhamTrains.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrains.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains.release.xcconfig"; sourceTree = "<group>"; };
+		C81C3CA274540778F3A08B74 /* Pods-BirminhamTrainsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrainsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrainsUITests/Pods-BirminhamTrainsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D280DDB02E17BAC4A770B6EE /* Pods-BirminhamTrains.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirminhamTrains.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04100241200BD0FB00AE29DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044074FF200CBC5400E46B8B /* TwitterCore.framework in Frameworks */,
+				044074FC200CBC4100E46B8B /* TwitterKit.framework in Frameworks */,
+				1BC0DB65CAAC4A6F940DF98D /* Pods_BirminhamTrains.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100258200BD0FC00AE29DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105C961906FA0CADE5D30D59 /* Pods_BirminhamTrainsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100263200BD0FC00AE29DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C569393AA71781C6760A0C8F /* Pods_BirminhamTrainsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0410023B200BD0FB00AE29DC = {
+			isa = PBXGroup;
+			children = (
+				04100246200BD0FB00AE29DC /* BirminhamTrains */,
+				0410025E200BD0FC00AE29DC /* BirminhamTrainsTests */,
+				04100269200BD0FC00AE29DC /* BirminhamTrainsUITests */,
+				04100245200BD0FB00AE29DC /* Products */,
+				04100282200BECF700AE29DC /* Twitter-Kit-iOS */,
+				04100283200BED1300AE29DC /* Frameworks */,
+				5383D2CFF71F03C784C9A6EB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04100245200BD0FB00AE29DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04100244200BD0FB00AE29DC /* BirminhamTrains.app */,
+				0410025B200BD0FC00AE29DC /* BirminhamTrainsTests.xctest */,
+				04100266200BD0FC00AE29DC /* BirminhamTrainsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04100246200BD0FB00AE29DC /* BirminhamTrains */ = {
+			isa = PBXGroup;
+			children = (
+				04100247200BD0FB00AE29DC /* AppDelegate.swift */,
+				04100249200BD0FB00AE29DC /* ViewController.swift */,
+				0410024B200BD0FB00AE29DC /* Main.storyboard */,
+				042860D3200CC9C7001A69BB /* ServicesViewController.swift */,
+				042860DB200D0848001A69BB /* ListTimelineViewController.swift */,
+				0410027C200BD7B800AE29DC /* StationData.swift */,
+				04A0DAB5200D296400ED4551 /* Apicall.swift */,
+				0410027A200BD73100AE29DC /* Stations.swift */,
+				04100278200BD6CB00AE29DC /* StationsTableViewController.swift */,
+				04A0DAB3200D211F00ED4551 /* SavedViewController.swift */,
+				04100251200BD0FB00AE29DC /* Assets.xcassets */,
+				04100253200BD0FB00AE29DC /* LaunchScreen.storyboard */,
+				04100256200BD0FB00AE29DC /* Info.plist */,
+				04A0DAB1200D1FD300ED4551 /* GoogleService-Info.plist */,
+				0410024E200BD0FB00AE29DC /* BirminhamTrains.xcdatamodeld */,
+			);
+			path = BirminhamTrains;
+			sourceTree = "<group>";
+		};
+		0410025E200BD0FC00AE29DC /* BirminhamTrainsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0410025F200BD0FC00AE29DC /* BirminhamTrainsTests.swift */,
+				04100261200BD0FC00AE29DC /* Info.plist */,
+			);
+			path = BirminhamTrainsTests;
+			sourceTree = "<group>";
+		};
+		04100269200BD0FC00AE29DC /* BirminhamTrainsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0410026A200BD0FC00AE29DC /* BirminhamTrainsUITests.swift */,
+				0410026C200BD0FC00AE29DC /* Info.plist */,
+			);
+			path = BirminhamTrainsUITests;
+			sourceTree = "<group>";
+		};
+		04100283200BED1300AE29DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04100287200BED2F00AE29DC /* TwitterKit.framework */,
+				04100285200BED1F00AE29DC /* TwitterCore.framework */,
+				04100284200BED1300AE29DC /* Twitter.framework */,
+				059464A22D3B97C5B4DC3FE7 /* Pods_BirminhamTrains.framework */,
+				5AD7B956E65A9586A4B8204C /* Pods_BirminhamTrainsTests.framework */,
+				0FE34B2FFEB8453481B30EB8 /* Pods_BirminhamTrainsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5383D2CFF71F03C784C9A6EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D280DDB02E17BAC4A770B6EE /* Pods-BirminhamTrains.debug.xcconfig */,
+				AF32D1C58220F1008A2A68CF /* Pods-BirminhamTrains.release.xcconfig */,
+				3FCFBFDFBC5D982A092332E1 /* Pods-BirminhamTrainsTests.debug.xcconfig */,
+				60ADE453BD46E6442DCAFA87 /* Pods-BirminhamTrainsTests.release.xcconfig */,
+				C81C3CA274540778F3A08B74 /* Pods-BirminhamTrainsUITests.debug.xcconfig */,
+				052C63BD9DB5EA05EB049FC3 /* Pods-BirminhamTrainsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04100243200BD0FB00AE29DC /* BirminhamTrains */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0410026F200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrains" */;
+			buildPhases = (
+				33299F063189FC7FE4EA13B2 /* [CP] Check Pods Manifest.lock */,
+				04100240200BD0FB00AE29DC /* Sources */,
+				04100241200BD0FB00AE29DC /* Frameworks */,
+				04100242200BD0FB00AE29DC /* Resources */,
+				044074FE200CBC4100E46B8B /* Embed Frameworks */,
+				5B9C8BEE862C008C59FF5B79 /* [CP] Embed Pods Frameworks */,
+				3FC01A5206122BADE88FD9AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirminhamTrains;
+			productName = BirminhamTrains;
+			productReference = 04100244200BD0FB00AE29DC /* BirminhamTrains.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0410025A200BD0FC00AE29DC /* BirminhamTrainsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04100272200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrainsTests" */;
+			buildPhases = (
+				CB374B64B1D24A0F9C89BE0D /* [CP] Check Pods Manifest.lock */,
+				04100257200BD0FC00AE29DC /* Sources */,
+				04100258200BD0FC00AE29DC /* Frameworks */,
+				04100259200BD0FC00AE29DC /* Resources */,
+				DB178E3A33E508F9CA0F9DE4 /* [CP] Embed Pods Frameworks */,
+				914C42DFE9F52FA11289AFAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0410025D200BD0FC00AE29DC /* PBXTargetDependency */,
+			);
+			name = BirminhamTrainsTests;
+			productName = BirminhamTrainsTests;
+			productReference = 0410025B200BD0FC00AE29DC /* BirminhamTrainsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04100265200BD0FC00AE29DC /* BirminhamTrainsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04100275200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrainsUITests" */;
+			buildPhases = (
+				AFE244BA47704E0C86CE9231 /* [CP] Check Pods Manifest.lock */,
+				04100262200BD0FC00AE29DC /* Sources */,
+				04100263200BD0FC00AE29DC /* Frameworks */,
+				04100264200BD0FC00AE29DC /* Resources */,
+				26ACDF1F85058C2B9C907BDD /* [CP] Embed Pods Frameworks */,
+				2C4CEC9F1E206B80BC958382 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04100268200BD0FC00AE29DC /* PBXTargetDependency */,
+			);
+			name = BirminhamTrainsUITests;
+			productName = BirminhamTrainsUITests;
+			productReference = 04100266200BD0FC00AE29DC /* BirminhamTrainsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0410023C200BD0FB00AE29DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jack Wolverson";
+				TargetAttributes = {
+					04100243200BD0FB00AE29DC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0410025A200BD0FC00AE29DC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04100243200BD0FB00AE29DC;
+					};
+					04100265200BD0FC00AE29DC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04100243200BD0FB00AE29DC;
+					};
+				};
+			};
+			buildConfigurationList = 0410023F200BD0FB00AE29DC /* Build configuration list for PBXProject "BirminhamTrains" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0410023B200BD0FB00AE29DC;
+			productRefGroup = 04100245200BD0FB00AE29DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04100243200BD0FB00AE29DC /* BirminhamTrains */,
+				0410025A200BD0FC00AE29DC /* BirminhamTrainsTests */,
+				04100265200BD0FC00AE29DC /* BirminhamTrainsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04100242200BD0FB00AE29DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04100255200BD0FB00AE29DC /* LaunchScreen.storyboard in Resources */,
+				04A0DAB2200D1FD400ED4551 /* GoogleService-Info.plist in Resources */,
+				04100252200BD0FB00AE29DC /* Assets.xcassets in Resources */,
+				0410024D200BD0FB00AE29DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100259200BD0FC00AE29DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100264200BD0FC00AE29DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26ACDF1F85058C2B9C907BDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrainsUITests/Pods-BirminhamTrainsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C4CEC9F1E206B80BC958382 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrainsUITests/Pods-BirminhamTrainsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33299F063189FC7FE4EA13B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirminhamTrains-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC01A5206122BADE88FD9AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9C8BEE862C008C59FF5B79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrains/Pods-BirminhamTrains-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914C42DFE9F52FA11289AFAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrainsTests/Pods-BirminhamTrainsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE244BA47704E0C86CE9231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirminhamTrainsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB374B64B1D24A0F9C89BE0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirminhamTrainsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB178E3A33E508F9CA0F9DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirminhamTrainsTests/Pods-BirminhamTrainsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04100240200BD0FB00AE29DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04100279200BD6CB00AE29DC /* StationsTableViewController.swift in Sources */,
+				0410027B200BD73100AE29DC /* Stations.swift in Sources */,
+				0410024A200BD0FB00AE29DC /* ViewController.swift in Sources */,
+				04A0DAB4200D211F00ED4551 /* SavedViewController.swift in Sources */,
+				04100250200BD0FB00AE29DC /* BirminhamTrains.xcdatamodeld in Sources */,
+				042860D4200CC9C7001A69BB /* ServicesViewController.swift in Sources */,
+				04A0DAB6200D296400ED4551 /* Apicall.swift in Sources */,
+				0410027D200BD7B800AE29DC /* StationData.swift in Sources */,
+				04100248200BD0FB00AE29DC /* AppDelegate.swift in Sources */,
+				042860DC200D0848001A69BB /* ListTimelineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100257200BD0FC00AE29DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04100260200BD0FC00AE29DC /* BirminhamTrainsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04100262200BD0FC00AE29DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410026B200BD0FC00AE29DC /* BirminhamTrainsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0410025D200BD0FC00AE29DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04100243200BD0FB00AE29DC /* BirminhamTrains */;
+			targetProxy = 0410025C200BD0FC00AE29DC /* PBXContainerItemProxy */;
+		};
+		04100268200BD0FC00AE29DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04100243200BD0FB00AE29DC /* BirminhamTrains */;
+			targetProxy = 04100267200BD0FC00AE29DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0410024B200BD0FB00AE29DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410024C200BD0FB00AE29DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04100253200BD0FB00AE29DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04100254200BD0FB00AE29DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0410026D200BD0FC00AE29DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0410026E200BD0FC00AE29DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04100270200BD0FC00AE29DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D280DDB02E17BAC4A770B6EE /* Pods-BirminhamTrains.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter-Kit-iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BirminhamTrains/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04100271200BD0FC00AE29DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF32D1C58220F1008A2A68CF /* Pods-BirminhamTrains.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter-Kit-iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BirminhamTrains/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrains;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04100273200BD0FC00AE29DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCFBFDFBC5D982A092332E1 /* Pods-BirminhamTrainsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirminhamTrainsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrainsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirminhamTrains.app/BirminhamTrains";
+			};
+			name = Debug;
+		};
+		04100274200BD0FC00AE29DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60ADE453BD46E6442DCAFA87 /* Pods-BirminhamTrainsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirminhamTrainsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrainsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirminhamTrains.app/BirminhamTrains";
+			};
+			name = Release;
+		};
+		04100276200BD0FC00AE29DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81C3CA274540778F3A08B74 /* Pods-BirminhamTrainsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirminhamTrainsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrainsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirminhamTrains;
+			};
+			name = Debug;
+		};
+		04100277200BD0FC00AE29DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 052C63BD9DB5EA05EB049FC3 /* Pods-BirminhamTrainsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BirminhamTrainsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jw.BirminhamTrainsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirminhamTrains;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0410023F200BD0FB00AE29DC /* Build configuration list for PBXProject "BirminhamTrains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410026D200BD0FC00AE29DC /* Debug */,
+				0410026E200BD0FC00AE29DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0410026F200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrains" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04100270200BD0FC00AE29DC /* Debug */,
+				04100271200BD0FC00AE29DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04100272200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrainsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04100273200BD0FC00AE29DC /* Debug */,
+				04100274200BD0FC00AE29DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04100275200BD0FC00AE29DC /* Build configuration list for PBXNativeTarget "BirminhamTrainsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04100276200BD0FC00AE29DC /* Debug */,
+				04100277200BD0FC00AE29DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0410024E200BD0FB00AE29DC /* BirminhamTrains.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0410024F200BD0FB00AE29DC /* BirminhamTrains.xcdatamodel */,
+			);
+			currentVersion = 0410024F200BD0FB00AE29DC /* BirminhamTrains.xcdatamodel */;
+			path = BirminhamTrains.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0410023C200BD0FB00AE29DC /* Project object */;
+}
